@@ -1107,3 +1107,8 @@
 		{
 			background-color: #e8edec;
 		}
+		
+		#main p
+		{
+			text-align: left;
+		}
