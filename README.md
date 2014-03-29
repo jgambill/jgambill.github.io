@@ -1,6 +1,6 @@
 jgambill.github.io
 ==================
 
-This is my attempt at learning Github Pages and Jekyll, while also building a spiffier online portfolio than my current Wordpress site.
+This is my attempt at learning [Github Pages](http://pages.github.com/), [Jekyll](http://jekyllrb.com/), and [Bootstrap](http://getbootstrap.com/), while also building a spiffier online portfolio than my current Wordpress site.
 
-The template for this site is Prologue 1.0 by [HTML5 UP](http://html5up.net).
+[This blog post at 24 Ways](http://24ways.org/2013/get-started-with-github-pages/) was immensely helpful in teaching me how to set up Github Pages and Jekyll.
