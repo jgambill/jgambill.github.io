@@ -10,9 +10,15 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
 
-.navbar-brand {
+.navbar-brand, .homepage-brand {
 	font-family: Pacifico, Georgia, sans-serif;
 	color: #f2026d !important;
+}
+
+.homepage-brand {
+  border-bottom: 1px dotted black;
+  font-size: 75px;
+  text-align: center;
 }
 
 .theme-dropdown .dropdown-menu {
