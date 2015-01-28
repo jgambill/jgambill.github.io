@@ -1,4 +1,6 @@
 name: Jodie Gambill
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:year/:title/
+sass:
+    style: :compressed
