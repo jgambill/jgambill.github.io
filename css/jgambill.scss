@@ -1,12 +1,17 @@
 ---
 ---
 
+///// variables \\\\\
+
 $pink: #f2026d;
 $medium-grey: #999999;
 $light-grey: #f5f5f5;
 $font-sans: 'Droid Sans', Verdana, sans-serif;
 $font-serif: 'Droid Serif', Georgia, serif;
 $font-myname: Pacifico, Georgia, sans-serif;
+
+
+///// basic elements \\\\\
 
 html {
   position: relative;
@@ -29,60 +34,54 @@ h2 {
   padding-bottom: 6px;
 }
 
+dd {
+  margin-bottom: 20px; // put spacing between dl entries
+}
+
+
+///// bootstrap elements \\\\\
+
+.label {
+  font-size: 100%; // bootstrap reduces button font size; put it back to normal
+  line-height: 2.5; // to accommodate putting the button font back to normal size
+}
+
 .navbar {
   border-bottom-color: $pink;
 }
 
-.navbar-brand, .homepage-brand {
+.navbar-brand, .homepage-brand { // my name in cursive
 	font-family: $font-myname;
 	color: $pink !important;
 }
 
-.homepage-brand {
+.homepage-brand { // large name on homepage
   border-bottom: 1px dotted black;
   font-size: 75px;
 }
 
-.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
-}
 
-.theme-showcase > p > .btn {
-  margin: 5px 0;
-}
+///// main content areas \\\\\
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: $light-grey;
+  // background-color: $light-grey;
 }
 
 #footer .container {
 	margin-top: 20px;
 }
 
-.group {
-  padding: 15px 0px;
-
-  p {
-    margin-top: 10px;
-  }
-
-  .title {
-    font-weight: bold;
-  }
-}
-
-.post, .content {
+.post, .content { // main content areas for pages and posts; does not include header text
   margin: 30px;
 }
 
+///// post pages \\\\\
 
-.meta {
+.meta { // line with post date, categories, tags
   font-size: 0.8em;
   color: $medium-grey;
 
@@ -92,18 +91,26 @@ h2 {
 }
 
 .post {
-  img {
+  img { // make images a little more interesting
     border-radius: 5px;
     box-shadow: 0 1px 2px #ababab;
   }
 }
 
+
+///// content pages \\\\\
+
 .content {
-  .presentation-desc {
+
+  .section-content {
+    margin-left: 30px;
+  }
+
+  .work-desc, .presentation-desc { // by default, don't show descriptions on the CV page
     display: none;
   }
 
-  .cv-note {
+  .cv-note { // note with link to other site pages in CV sections
     font-size: 0.85em;
     font-style: italic;
   }
