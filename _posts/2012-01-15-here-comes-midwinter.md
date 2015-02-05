@@ -2,7 +2,8 @@
 layout: post
 title:  "Here Comes Midwinter!"
 date:   2012-01-15 00:00:00
-categories: ala alamw12 emerging-leaders conferences professional-development
+categories: ala conferences professional-development
+tags: alamw12 emerging-leaders
 ---
 
 I can’t believe I’m leaving for Midwinter this week!  This will be my first ALA conference, so I’m not completely sure what to expect.  I do know my schedule is overflowing with what looks to be some awesome sessions and social gatherings.

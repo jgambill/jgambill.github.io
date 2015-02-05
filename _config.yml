@@ -1,5 +1,5 @@
 name: Jodie Gambill
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /:year/:title/
 sass:

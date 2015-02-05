@@ -2,6 +2,7 @@
 ---
 
 $pink: #f2026d;
+$medium-grey: #999999;
 $light-grey: #f5f5f5;
 $font-sans: 'Droid Sans', Verdana, sans-serif;
 $font-serif: 'Droid Serif', Georgia, serif;
@@ -73,5 +74,37 @@ h2 {
 
   .title {
     font-weight: bold;
+  }
+}
+
+.post, .content {
+  margin: 30px;
+}
+
+
+.meta {
+  font-size: 0.8em;
+  color: $medium-grey;
+
+  .categories {
+    padding: 0px 15px;
+  }
+}
+
+.post {
+  img {
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #ababab;
+  }
+}
+
+.content {
+  .presentation-desc {
+    display: none;
+  }
+
+  .cv-note {
+    font-size: 0.85em;
+    font-style: italic;
   }
 }
