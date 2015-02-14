@@ -50,6 +50,9 @@ dd {
   border-bottom-color: $pink;
 }
 
+
+///// home page \\\\\
+
 .navbar-brand, .homepage-brand { // my name in cursive
 	font-family: $font-myname;
 	color: $pink !important;
@@ -58,6 +61,19 @@ dd {
 .homepage-brand { // large name on homepage
   border-bottom: 1px dotted black;
   font-size: 75px;
+}
+
+.homepage-nav {
+  margin-top: 30px;
+  ul {
+    text-align: center;
+    li {
+      text-transform: uppercase;
+    }
+  }
+  a {
+    color: black;
+  }
 }
 
 
@@ -113,5 +129,11 @@ dd {
   .cv-note { // note with link to other site pages in CV sections
     font-size: 0.85em;
     font-style: italic;
+  }
+}
+
+#findme {
+  img {
+    padding-right: 5px;
   }
 }
