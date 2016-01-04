@@ -5,9 +5,10 @@ $(document).ready(function() {
 
     // from https://support.google.com/analytics/answer/1136920?hl=en
     $('a.outbound').click(function() {
-        ga('send', 'event', 'outbound', 'click', $(this).attr('href'), {'hitCallback':
+        var url = $(this).attr('href');
+        ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
             function () {
-                document.location = $(this).attr('href');
+                document.location = url;
             }
         });
     });
