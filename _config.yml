@@ -1,6 +1,6 @@
 name: Jodie Gambill
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:title/
 sass:
     style: :compressed
